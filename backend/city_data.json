@@ -1,0 +1,492 @@
+[
+  {
+    "id": "St. Johns Hospital",
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "type": "Hospital",
+    "priority_score": 1,
+    "base_demand_mw": 52,
+    "historical_risk_index": 0.78,
+    "coordinates": {
+      "lat": 12.9516,
+      "lon": 77.6195
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 18,
+        "cause": "Flash Flood",
+        "outage_hours": 14,
+        "notes": "Koramangala storm drains overwhelmed"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 31,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 27,
+        "notes": "Concurrent BESCOM feeder failure during rainfall"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 44,
+        "cause": "Flash Flood",
+        "outage_hours": 38,
+        "notes": "Bellandur lake overflow backflow reached access roads"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 22,
+        "cause": "Inundation",
+        "outage_hours": 19,
+        "notes": "September 2022 extreme rainfall event"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 12,
+        "cause": "Grid Overload",
+        "outage_hours": 8,
+        "notes": "Summer demand spike, transformer failure"
+      }
+    ]
+  },
+  {
+    "id": "Koramangala 8th Block Residential Cluster",
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "type": "Residential",
+    "priority_score": 4,
+    "base_demand_mw": 24,
+    "historical_risk_index": 0.82,
+    "coordinates": {
+      "lat": 12.9352,
+      "lon": 77.6245
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 35,
+        "cause": "Flash Flood",
+        "outage_hours": 48,
+        "notes": "Low-lying pocket near Koramangala valley floor flooded"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 55,
+        "cause": "Flash Flood",
+        "outage_hours": 72,
+        "notes": "Significant property and substation damage"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 68,
+        "cause": "Flash Flood + Sewage Overflow",
+        "outage_hours": 96,
+        "notes": "Worst recorded event; underground cable damage"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 60,
+        "cause": "Inundation",
+        "outage_hours": 84,
+        "notes": "September 2022 declared disaster zone"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 20,
+        "cause": "Flash Flood",
+        "outage_hours": 22,
+        "notes": "Partial mitigation due to new SWD upgrades"
+      }
+    ]
+  },
+  {
+    "id": "Bellandur Lake Water Treatment Node",
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "type": "Water Treatment",
+    "priority_score": 2,
+    "base_demand_mw": 18,
+    "historical_risk_index": 0.91,
+    "coordinates": {
+      "lat": 12.9256,
+      "lon": 77.6701
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 40,
+        "cause": "Flash Flood",
+        "outage_hours": 52,
+        "notes": "Lake overflow; foam and effluent contamination"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 62,
+        "cause": "Flash Flood + Chemical Overflow",
+        "outage_hours": 88,
+        "notes": "Lake catchment capacity exceeded 140%"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 85,
+        "cause": "Flash Flood + Fire Incident",
+        "outage_hours": 120,
+        "notes": "Lake fire (froth ignition); facility evacuation"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 70,
+        "cause": "Inundation",
+        "outage_hours": 98,
+        "notes": "Repeat extreme rainfall; pumping station submerged"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 28,
+        "cause": "Flash Flood",
+        "outage_hours": 30,
+        "notes": "Partial recovery aided by BWSSB pre-emptive pumping"
+      }
+    ]
+  },
+  {
+    "id": "Electronic City IT Park Grid",
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "type": "IT Park",
+    "priority_score": 3,
+    "base_demand_mw": 140,
+    "historical_risk_index": 0.45,
+    "coordinates": {
+      "lat": 12.8458,
+      "lon": 77.6692
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 8,
+        "cause": "Grid Overload",
+        "outage_hours": 6,
+        "notes": "Phase imbalance during monsoon load surge"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 15,
+        "cause": "Flash Flood",
+        "outage_hours": 12,
+        "notes": "Low-lying access roads flooded; logistics disrupted"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 22,
+        "cause": "Grid Overload + Flash Flood",
+        "outage_hours": 18,
+        "notes": "Elevated terrain spared buildings; power grid hit"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 18,
+        "cause": "Inundation (Peripheral)",
+        "outage_hours": 16,
+        "notes": "Hosur Road connectivity severed; DG sets deployed"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 10,
+        "cause": "Grid Overload",
+        "outage_hours": 9,
+        "notes": "Summer cooling demand exceeded feeder capacity"
+      }
+    ]
+  },
+  {
+    "id": "Manyata Tech Park Grid",
+    "valley": "Hebbal Valley",
+    "type": "IT Park",
+    "priority_score": 3,
+    "base_demand_mw": 165,
+    "historical_risk_index": 0.55,
+    "coordinates": {
+      "lat": 13.0475,
+      "lon": 77.62
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 10,
+        "cause": "Grid Overload",
+        "outage_hours": 7,
+        "notes": "Early-phase expansion; grid not yet reinforced"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 20,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 24,
+        "notes": "Hebbal lake spillover reached peripheral sectors"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 18,
+        "cause": "Flash Flood",
+        "outage_hours": 16,
+        "notes": "Underpass waterlogging cut off northern access"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 30,
+        "cause": "Inundation",
+        "outage_hours": 36,
+        "notes": "Hebbal low-point flooding; data center cooling affected"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 14,
+        "cause": "Grid Overload",
+        "outage_hours": 10,
+        "notes": "Transformer upgrade pending during peak summer"
+      }
+    ]
+  },
+  {
+    "id": "Hebbal Flyover Residential Zone",
+    "valley": "Hebbal Valley",
+    "type": "Residential",
+    "priority_score": 4,
+    "base_demand_mw": 28,
+    "historical_risk_index": 0.67,
+    "coordinates": {
+      "lat": 13.045,
+      "lon": 77.595
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 22,
+        "cause": "Flash Flood",
+        "outage_hours": 30,
+        "notes": "Hebbal lake backwater flooding in low-lying pockets"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 38,
+        "cause": "Flash Flood",
+        "outage_hours": 55,
+        "notes": "Storm drain overflow; road submersion >1m"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 30,
+        "cause": "Flash Flood",
+        "outage_hours": 40,
+        "notes": "Repeat flooding; resident evacuation in sectors B and D"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 45,
+        "cause": "Inundation",
+        "outage_hours": 60,
+        "notes": "Peak September flooding; BBMP emergency response"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 18,
+        "cause": "Flash Flood",
+        "outage_hours": 20,
+        "notes": "Improved storm drain partially mitigated impact"
+      }
+    ]
+  },
+  {
+    "id": "Yelahanka BBMP Water Treatment Plant",
+    "valley": "Hebbal Valley",
+    "type": "Water Treatment",
+    "priority_score": 2,
+    "base_demand_mw": 22,
+    "historical_risk_index": 0.48,
+    "coordinates": {
+      "lat": 13.1006,
+      "lon": 77.5964
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 12,
+        "cause": "Grid Overload",
+        "outage_hours": 10,
+        "notes": "Monsoon load surge tripped main feeder"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 20,
+        "cause": "Flash Flood",
+        "outage_hours": 18,
+        "notes": "Peripheral pumping stations waterlogged"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 25,
+        "cause": "Flash Flood + Equipment Failure",
+        "outage_hours": 28,
+        "notes": "Aging pump motors failed post-submersion"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 32,
+        "cause": "Inundation",
+        "outage_hours": 38,
+        "notes": "Upstream catchment collapse; supply disrupted for 48hrs"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 10,
+        "cause": "Grid Overload",
+        "outage_hours": 8,
+        "notes": "Minor event; backup DG engaged within 20 mins"
+      }
+    ]
+  },
+  {
+    "id": "Rajajinagar Residential Hub",
+    "valley": "Vrishabavathi Valley",
+    "type": "Residential",
+    "priority_score": 4,
+    "base_demand_mw": 22,
+    "historical_risk_index": 0.6,
+    "coordinates": {
+      "lat": 12.9913,
+      "lon": 77.554
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 20,
+        "cause": "Flash Flood",
+        "outage_hours": 28,
+        "notes": "Vrishabavathi river tributary overflow into residential pockets"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 35,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 48,
+        "notes": "Concurrent grid instability and street flooding"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 28,
+        "cause": "Flash Flood",
+        "outage_hours": 36,
+        "notes": "Western drain overflow; ground floor units inundated"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 42,
+        "cause": "Inundation",
+        "outage_hours": 58,
+        "notes": "River bank erosion; NDRF deployed"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 16,
+        "cause": "Flash Flood",
+        "outage_hours": 18,
+        "notes": "Moderate event; bund reinforcement held"
+      }
+    ]
+  },
+  {
+    "id": "Vrishabavathi Valley STP (Sewage Treatment Plant)",
+    "valley": "Vrishabavathi Valley",
+    "type": "Water Treatment",
+    "priority_score": 2,
+    "base_demand_mw": 16,
+    "historical_risk_index": 0.74,
+    "coordinates": {
+      "lat": 12.948,
+      "lon": 77.512
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 30,
+        "cause": "Flash Flood + Overflow",
+        "outage_hours": 44,
+        "notes": "Raw sewage overflow into river; KSPCB notice issued"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 52,
+        "cause": "Flash Flood",
+        "outage_hours": 72,
+        "notes": "Treatment capacity overwhelmed; bypass discharge occurred"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 65,
+        "cause": "Flash Flood + Equipment Failure",
+        "outage_hours": 90,
+        "notes": "Primary clarifier damaged; 3-week repair timeline"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 58,
+        "cause": "Inundation",
+        "outage_hours": 80,
+        "notes": "BBMP reported complete STP shutdown for 5 days"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 24,
+        "cause": "Flash Flood",
+        "outage_hours": 28,
+        "notes": "Upgraded bund partially contained overflow"
+      }
+    ]
+  },
+  {
+    "id": "MS Ramaiah Hospital North Bangalore",
+    "valley": "Hebbal Valley",
+    "type": "Hospital",
+    "priority_score": 1,
+    "base_demand_mw": 47,
+    "historical_risk_index": 0.4,
+    "coordinates": {
+      "lat": 13.0004,
+      "lon": 77.5693
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 8,
+        "cause": "Grid Overload",
+        "outage_hours": 5,
+        "notes": "Minor feeder trip; hospital backup DG activated"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 15,
+        "cause": "Flash Flood",
+        "outage_hours": 12,
+        "notes": "Access road flooding; outpatient disruption"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 20,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 18,
+        "notes": "Combined stress event; elective surgeries postponed"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 18,
+        "cause": "Inundation",
+        "outage_hours": 15,
+        "notes": "Basement parking submerged; emergency routes maintained"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 8,
+        "cause": "Grid Overload",
+        "outage_hours": 6,
+        "notes": "Summer heatwave demand peak; DG backup sufficient"
+      }
+    ]
+  }
+]

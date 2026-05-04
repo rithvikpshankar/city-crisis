@@ -1,0 +1,312 @@
+[
+  {
+    "agent_id": "St. Johns Hospital",
+    "location": "St. Johns Hospital",
+    "type": "Critical",
+    "node_type": "Hospital",
+    "priority_level": 10,
+    "base_power_demand": 52000,
+    "critical_threshold": 35000,
+    "historical_risk_index": 0.78,
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "coordinates": {
+      "lat": 12.9516,
+      "lon": 77.6195
+    },
+    "grid_context": {
+      "bescom_zone": "South-East",
+      "feeder_type": "Dedicated HT feeder",
+      "backup_dg": true,
+      "peak_demand_mw": 0.052,
+      "base_demand_mw": 0.052,
+      "reserve_margin_pct": 5.2,
+      "failure_pct_today": 3.8,
+      "risk_index": 0.28
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 18,
+        "cause": "Flash Flood",
+        "outage_hours": 14,
+        "notes": "Koramangala storm drains overwhelmed; DG backup activated after 2h"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 31,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 27,
+        "notes": "Concurrent BESCOM feeder failure during rainfall; elective procedures halted"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 44,
+        "cause": "Flash Flood",
+        "outage_hours": 38,
+        "notes": "Bellandur lake overflow backflow reached access roads; ICU on generator"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 22,
+        "cause": "Inundation",
+        "outage_hours": 19,
+        "notes": "September 2022 extreme rainfall; partial load shed on non-critical wings"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 12,
+        "cause": "Grid Overload",
+        "outage_hours": 8,
+        "notes": "Summer demand spike; transformer failure on feeder — DG sufficient"
+      }
+    ]
+  },
+  {
+    "agent_id": "Vrishabavathi Valley STP (Sewage Treatment Plant)",
+    "location": "Vrishabavathi Valley STP (Sewage Treatment Plant)",
+    "type": "Critical",
+    "node_type": "Water Treatment",
+    "priority_level": 8,
+    "base_power_demand": 16000,
+    "critical_threshold": 10000,
+    "historical_risk_index": 0.74,
+    "valley": "Vrishabavathi Valley",
+    "coordinates": {
+      "lat": 12.9480,
+      "lon": 77.5120
+    },
+    "grid_context": {
+      "bescom_zone": "West",
+      "feeder_type": "Dedicated HT feeder",
+      "backup_dg": true,
+      "peak_demand_mw": 0.016,
+      "base_demand_mw": 0.016,
+      "reserve_margin_pct": 4.8,
+      "failure_pct_today": 4.1,
+      "risk_index": 0.31
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 30,
+        "cause": "Flash Flood + Overflow",
+        "outage_hours": 44,
+        "notes": "Raw sewage overflow into river; KSPCB notice issued; pumps submerged"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 52,
+        "cause": "Flash Flood",
+        "outage_hours": 72,
+        "notes": "Treatment capacity overwhelmed; bypass discharge occurred"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 65,
+        "cause": "Flash Flood + Equipment Failure",
+        "outage_hours": 90,
+        "notes": "Primary clarifier damaged; 3-week repair timeline; BWSSB emergency deployed"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 58,
+        "cause": "Inundation",
+        "outage_hours": 80,
+        "notes": "BBMP reported complete STP shutdown for 5 days; tanker supply activated"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 24,
+        "cause": "Flash Flood",
+        "outage_hours": 28,
+        "notes": "Upgraded bund partially contained overflow; pumping stations held"
+      }
+    ]
+  },
+  {
+    "agent_id": "Koramangala 8th Block Residential Cluster",
+    "location": "Koramangala 8th Block Residential Cluster",
+    "type": "Residential",
+    "node_type": "Residential",
+    "priority_level": 5,
+    "base_power_demand": 24000,
+    "critical_threshold": 8000,
+    "historical_risk_index": 0.82,
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "coordinates": {
+      "lat": 12.9352,
+      "lon": 77.6245
+    },
+    "grid_context": {
+      "bescom_zone": "South-East",
+      "feeder_type": "Shared LT distribution feeder",
+      "backup_dg": false,
+      "peak_demand_mw": 0.024,
+      "base_demand_mw": 0.022,
+      "reserve_margin_pct": 4.2,
+      "failure_pct_today": 4.5,
+      "risk_index": 0.32
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 35,
+        "cause": "Flash Flood",
+        "outage_hours": 48,
+        "notes": "Low-lying pocket near KC valley floor flooded; cable trenches waterlogged"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 55,
+        "cause": "Flash Flood",
+        "outage_hours": 72,
+        "notes": "Significant property and substation damage; BESCOM mobile unit deployed"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 68,
+        "cause": "Flash Flood + Sewage Overflow",
+        "outage_hours": 96,
+        "notes": "Worst recorded event; underground cable damage; residents evacuated"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 60,
+        "cause": "Inundation",
+        "outage_hours": 84,
+        "notes": "September 2022 declared disaster zone; NDRF team stationed"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 20,
+        "cause": "Flash Flood",
+        "outage_hours": 22,
+        "notes": "Partial mitigation due to new SWD upgrades; voltage drops in peak hours"
+      }
+    ]
+  },
+  {
+    "agent_id": "Manyata Tech Park Grid",
+    "location": "Manyata Tech Park Grid",
+    "type": "Commercial",
+    "node_type": "IT Park",
+    "priority_level": 3,
+    "base_power_demand": 165000,
+    "critical_threshold": 80000,
+    "historical_risk_index": 0.55,
+    "valley": "Hebbal Valley",
+    "coordinates": {
+      "lat": 13.0475,
+      "lon": 77.6200
+    },
+    "grid_context": {
+      "bescom_zone": "North",
+      "feeder_type": "Shared HT feeder (IT corridor)",
+      "backup_dg": true,
+      "peak_demand_mw": 0.165,
+      "base_demand_mw": 0.140,
+      "reserve_margin_pct": 5.8,
+      "failure_pct_today": 3.5,
+      "risk_index": 0.27
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 10,
+        "cause": "Grid Overload",
+        "outage_hours": 7,
+        "notes": "Early-phase expansion; grid not yet reinforced; phase imbalance during monsoon"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 20,
+        "cause": "Flash Flood + Grid Overload",
+        "outage_hours": 24,
+        "notes": "Hebbal lake spillover reached peripheral sectors; data center cooling stressed"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 18,
+        "cause": "Flash Flood",
+        "outage_hours": 16,
+        "notes": "Underpass waterlogging cut off northern access; DG sets deployed campus-wide"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 30,
+        "cause": "Inundation",
+        "outage_hours": 36,
+        "notes": "Hebbal low-point flooding; data center cooling affected; WFH enforced"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 14,
+        "cause": "Grid Overload",
+        "outage_hours": 10,
+        "notes": "Transformer upgrade pending during peak summer; IT corridor voltage sag recorded"
+      }
+    ]
+  },
+  {
+    "agent_id": "Electronic City IT Park Grid",
+    "location": "Electronic City IT Park Grid",
+    "type": "Commercial",
+    "node_type": "IT Park",
+    "priority_level": 2,
+    "base_power_demand": 140000,
+    "critical_threshold": 60000,
+    "historical_risk_index": 0.45,
+    "valley": "Koramangala-Challaghatta (KC) Valley",
+    "coordinates": {
+      "lat": 12.8458,
+      "lon": 77.6692
+    },
+    "grid_context": {
+      "bescom_zone": "South",
+      "feeder_type": "Shared HT feeder (IT corridor)",
+      "backup_dg": true,
+      "peak_demand_mw": 0.140,
+      "base_demand_mw": 0.120,
+      "reserve_margin_pct": 4.0,
+      "failure_pct_today": 3.2,
+      "risk_index": 0.25
+    },
+    "disaster_impact_history": [
+      {
+        "year": 2006,
+        "percentage_failure": 8,
+        "cause": "Grid Overload",
+        "outage_hours": 6,
+        "notes": "Phase imbalance during monsoon load surge; Hosur Road feeder tripped"
+      },
+      {
+        "year": 2015,
+        "percentage_failure": 15,
+        "cause": "Flash Flood",
+        "outage_hours": 12,
+        "notes": "Low-lying access roads flooded; logistics disrupted; elevated campus spared"
+      },
+      {
+        "year": 2017,
+        "percentage_failure": 22,
+        "cause": "Grid Overload + Flash Flood",
+        "outage_hours": 18,
+        "notes": "Elevated terrain spared buildings; power grid hit; Hosur Road severed"
+      },
+      {
+        "year": 2022,
+        "percentage_failure": 18,
+        "cause": "Inundation (Peripheral)",
+        "outage_hours": 16,
+        "notes": "Hosur Road connectivity severed; DG sets deployed; BESCOM repair team delayed"
+      },
+      {
+        "year": 2024,
+        "percentage_failure": 10,
+        "cause": "Grid Overload",
+        "outage_hours": 9,
+        "notes": "Summer cooling demand exceeded feeder capacity; load shedding on non-critical blocks"
+      }
+    ]
+  }
+]
